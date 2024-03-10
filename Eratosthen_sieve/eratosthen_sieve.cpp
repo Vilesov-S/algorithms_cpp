@@ -42,8 +42,7 @@ void eratosthen_sieve(int quantity_elements, bool write_to_file = false)
 
 int main(int argc, char *argv[])
 {
-	//system("chcp 1251");
-	//setlocale(LC_ALL, "Russian");
+	//setlocale(LC_ALL, "ru_RU.UTF-8");
 	int quantity_elements = stoi(argv[1]);
 	bool write_to_file = bool(stoi(argv[2]));
 	eratosthen_sieve(quantity_elements, write_to_file);
